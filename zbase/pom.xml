@@ -53,6 +53,5 @@
 			<artifactId>jersey-container-servlet-core</artifactId>
 			<version>2.23</version>
 		</dependency>
-
 	</dependencies>
 </project>

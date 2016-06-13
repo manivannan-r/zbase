@@ -29,7 +29,7 @@ public class UserDao {
 				ObjectInputStream ois = new ObjectInputStream(fis);
 				userList = (List<User>) ois.readObject();
 				ois.close();
-			}
+			}                   
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
@@ -110,5 +110,4 @@ public class UserDao {
 		}
 		return 0;
 	}
-
 }
